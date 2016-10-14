@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="005de2f4-5d3c-4a8a-98f9-867b2db9deea" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:13000/WCF" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCF.xsd" MetadataType="Schema" ID="9af36311-e95d-4347-8114-8a995fa300dc" SourceId="1" SourceUrl="http://localhost:13000/WCF?xsd=xsd1" />
+    <MetadataFile FileName="WCF1.xsd" MetadataType="Schema" ID="06777ec1-6320-41b9-a6ce-4617f92423dd" SourceId="1" SourceUrl="http://localhost:13000/WCF?xsd=xsd0" />
+    <MetadataFile FileName="WCF.disco" MetadataType="Disco" ID="67395225-da60-4858-a160-75eb096e9dcf" SourceId="1" SourceUrl="http://localhost:13000/WCF?disco" />
+    <MetadataFile FileName="CalculatorImpl.wsdl" MetadataType="Wsdl" ID="fd9692c2-c69f-4dd4-a7e6-bd90bf2c866e" SourceId="1" SourceUrl="http://localhost:13000/WCF?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

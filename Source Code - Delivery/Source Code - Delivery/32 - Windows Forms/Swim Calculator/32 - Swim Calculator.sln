@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator-Complete", "Calculator-Complete\Calculator-Complete.csproj", "{A4744231-32F1-4446-A468-3F69A53490D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating the Project", "Creating the Project\Creating the Project.csproj", "{735D3ECF-4504-4B24-BCCD-3A9F393A81BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator - Worked Stages", "Calculator - Worked Stages", "{EABA36BA-C738-4EB1-9692-0ED90876F61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragging Controls", "Dragging Controls\Dragging Controls.csproj", "{1D911FEE-BB72-4172-BE6A-9FDD348920A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setting the Control Properties", "Setting the Control Properties\Setting the Control Properties.csproj", "{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding the MenuStrip and StatusStrip", "Adding the MenuStrip and StatusStrip\Adding the MenuStrip and StatusStrip.csproj", "{E5D5BFE5-8077-41DC-894D-5385F91B2331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naming the Controls", "Naming the Controls\Naming the Controls.csproj", "{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setting the Tab Order", "Setting the Tab Order\Setting the Tab Order.csproj", "{3D74B790-026F-4B58-B52E-90CFA159CBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wiring the events", "Wiring the Events\Wiring the events.csproj", "{BD0F95B6-08F1-45B4-A928-4535D3DC4D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setting the Icon", "Setting the Icon\Setting the Icon.csproj", "{0A8037A3-2F98-4A4A-91B4-BE8FB200698B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4744231-32F1-4446-A468-3F69A53490D2}.Debug|x86.ActiveCfg = Debug|x86
+		{A4744231-32F1-4446-A468-3F69A53490D2}.Debug|x86.Build.0 = Debug|x86
+		{A4744231-32F1-4446-A468-3F69A53490D2}.Release|x86.ActiveCfg = Release|x86
+		{A4744231-32F1-4446-A468-3F69A53490D2}.Release|x86.Build.0 = Release|x86
+		{735D3ECF-4504-4B24-BCCD-3A9F393A81BE}.Debug|x86.ActiveCfg = Debug|x86
+		{735D3ECF-4504-4B24-BCCD-3A9F393A81BE}.Debug|x86.Build.0 = Debug|x86
+		{735D3ECF-4504-4B24-BCCD-3A9F393A81BE}.Release|x86.ActiveCfg = Release|x86
+		{735D3ECF-4504-4B24-BCCD-3A9F393A81BE}.Release|x86.Build.0 = Release|x86
+		{1D911FEE-BB72-4172-BE6A-9FDD348920A2}.Debug|x86.ActiveCfg = Debug|x86
+		{1D911FEE-BB72-4172-BE6A-9FDD348920A2}.Debug|x86.Build.0 = Debug|x86
+		{1D911FEE-BB72-4172-BE6A-9FDD348920A2}.Release|x86.ActiveCfg = Release|x86
+		{1D911FEE-BB72-4172-BE6A-9FDD348920A2}.Release|x86.Build.0 = Release|x86
+		{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5}.Debug|x86.ActiveCfg = Debug|x86
+		{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5}.Debug|x86.Build.0 = Debug|x86
+		{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5}.Release|x86.ActiveCfg = Release|x86
+		{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5}.Release|x86.Build.0 = Release|x86
+		{E5D5BFE5-8077-41DC-894D-5385F91B2331}.Debug|x86.ActiveCfg = Debug|x86
+		{E5D5BFE5-8077-41DC-894D-5385F91B2331}.Debug|x86.Build.0 = Debug|x86
+		{E5D5BFE5-8077-41DC-894D-5385F91B2331}.Release|x86.ActiveCfg = Release|x86
+		{E5D5BFE5-8077-41DC-894D-5385F91B2331}.Release|x86.Build.0 = Release|x86
+		{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF}.Debug|x86.ActiveCfg = Debug|x86
+		{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF}.Debug|x86.Build.0 = Debug|x86
+		{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF}.Release|x86.ActiveCfg = Release|x86
+		{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF}.Release|x86.Build.0 = Release|x86
+		{3D74B790-026F-4B58-B52E-90CFA159CBCC}.Debug|x86.ActiveCfg = Debug|x86
+		{3D74B790-026F-4B58-B52E-90CFA159CBCC}.Debug|x86.Build.0 = Debug|x86
+		{3D74B790-026F-4B58-B52E-90CFA159CBCC}.Release|x86.ActiveCfg = Release|x86
+		{3D74B790-026F-4B58-B52E-90CFA159CBCC}.Release|x86.Build.0 = Release|x86
+		{BD0F95B6-08F1-45B4-A928-4535D3DC4D33}.Debug|x86.ActiveCfg = Debug|x86
+		{BD0F95B6-08F1-45B4-A928-4535D3DC4D33}.Debug|x86.Build.0 = Debug|x86
+		{BD0F95B6-08F1-45B4-A928-4535D3DC4D33}.Release|x86.ActiveCfg = Release|x86
+		{BD0F95B6-08F1-45B4-A928-4535D3DC4D33}.Release|x86.Build.0 = Release|x86
+		{0A8037A3-2F98-4A4A-91B4-BE8FB200698B}.Debug|x86.ActiveCfg = Debug|x86
+		{0A8037A3-2F98-4A4A-91B4-BE8FB200698B}.Debug|x86.Build.0 = Debug|x86
+		{0A8037A3-2F98-4A4A-91B4-BE8FB200698B}.Release|x86.ActiveCfg = Release|x86
+		{0A8037A3-2F98-4A4A-91B4-BE8FB200698B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{735D3ECF-4504-4B24-BCCD-3A9F393A81BE} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{1D911FEE-BB72-4172-BE6A-9FDD348920A2} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{704E18A5-D81D-4CA5-ACC9-A03BA3AF2FE5} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{E5D5BFE5-8077-41DC-894D-5385F91B2331} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{8B4B66CE-A4FC-4A1C-894F-D0276C24BCCF} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{3D74B790-026F-4B58-B52E-90CFA159CBCC} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{BD0F95B6-08F1-45B4-A928-4535D3DC4D33} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+		{0A8037A3-2F98-4A4A-91B4-BE8FB200698B} = {EABA36BA-C738-4EB1-9692-0ED90876F61E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fruit>
+  <Name>Orange</Name>
+  <Size>Large</Size>
+  <ItemsInStock>250</ItemsInStock>
+  <Description>
+    <Color>Orange</Color>
+    <Flavor>Citrus</Flavor>
+  </Description>
+</Fruit>

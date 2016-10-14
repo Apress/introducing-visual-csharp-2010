@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="DataApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="257" Width="568" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:riaControls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.DomainServices" xmlns:my="clr-namespace:DataApp.Web">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="195*" />
+            <RowDefinition Height="45*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Name="stackPanel1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <sdk:Label Height="28" Name="label1" Content="City:" Margin="0,0,10,0" />
+            <ComboBox Height="23" Name="comboBox1" Width="120" SelectedIndex="0" SelectionChanged="comboBox1_SelectionChanged">
+                <ComboBoxItem Content="All" />
+                <ComboBoxItem Content="London" />
+                <ComboBoxItem Content="Redmond" />
+                <ComboBoxItem Content="Seattle" />
+                <ComboBoxItem Content="Tacoma" />
+            </ComboBox>
+        </StackPanel>
+        <riaControls:DomainDataSource AutoLoad="True" d:DesignData="{d:DesignInstance my:Employee, CreateList=true}" Height="0" LoadedData="employeeDomainDataSource_LoadedData" Name="employeeDomainDataSource" QueryName="GetEmployeesQuery" Width="0">
+            <riaControls:DomainDataSource.DomainContext>
+                <my:EmployeeDomainServices />
+            </riaControls:DomainDataSource.DomainContext>
+        </riaControls:DomainDataSource>
+        <sdk:DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=employeeDomainDataSource, Path=Data}" Name="employeeDataGrid" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <sdk:DataGrid.Columns>
+                <sdk:DataGridTextColumn x:Name="firstNameColumn" Binding="{Binding Path=FirstName}" Header="First Name" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="lastNameColumn" Binding="{Binding Path=LastName}" Header="Last Name" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="cityColumn" Binding="{Binding Path=City}" Header="City" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="addressColumn" Binding="{Binding Path=Address}" Header="Address" Width="SizeToHeader" />
+                <sdk:DataGridTemplateColumn x:Name="birthDateColumn" Header="Birth Date" Width="SizeToHeader">
+                    <sdk:DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <sdk:DatePicker SelectedDate="{Binding Path=BirthDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, TargetNullValue=''}" />
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellEditingTemplate>
+                    <sdk:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=BirthDate, StringFormat=\{0:d\}}" />
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellTemplate>
+                </sdk:DataGridTemplateColumn>
+                <sdk:DataGridTextColumn x:Name="countryColumn" Binding="{Binding Path=Country}" Header="Country" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="employeeIDColumn" Binding="{Binding Path=EmployeeID, Mode=OneWay}" Header="Employee ID" IsReadOnly="True" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="extensionColumn" Binding="{Binding Path=Extension}" Header="Extension" Width="SizeToHeader" />
+                <sdk:DataGridTemplateColumn x:Name="hireDateColumn" Header="Hire Date" Width="SizeToHeader">
+                    <sdk:DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <sdk:DatePicker SelectedDate="{Binding Path=HireDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, TargetNullValue=''}" />
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellEditingTemplate>
+                    <sdk:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=HireDate, StringFormat=\{0:d\}}" />
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellTemplate>
+                </sdk:DataGridTemplateColumn>
+                <sdk:DataGridTextColumn x:Name="homePhoneColumn" Binding="{Binding Path=HomePhone}" Header="Home Phone" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="notesColumn" Binding="{Binding Path=Notes}" Header="Notes" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="photoPathColumn" Binding="{Binding Path=PhotoPath}" Header="Photo Path" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="postalCodeColumn" Binding="{Binding Path=PostalCode}" Header="Postal Code" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="regionColumn" Binding="{Binding Path=Region}" Header="Region" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="reportsToColumn" Binding="{Binding Path=ReportsTo}" Header="Reports To" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="titleColumn" Binding="{Binding Path=Title}" Header="Title" Width="SizeToHeader" />
+                <sdk:DataGridTextColumn x:Name="titleOfCourtesyColumn" Binding="{Binding Path=TitleOfCourtesy}" Header="Title Of Courtesy" Width="SizeToHeader" />
+            </sdk:DataGrid.Columns>
+        </sdk:DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worked Stages", "Worked Stages", "{500516E1-95E6-41D7-93BE-9131BDF7302F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding the data model", "DataApp - Adding the Data Model\Adding the data model.csproj", "{6F23F928-E109-4B17-B947-FB2E67A37981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataApp - Complete", "DataApp - Complete\DataApp - Complete.csproj", "{02FCE7C9-EF26-4135-A7EF-295CCE73CAD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding the data source", "DataApp - Adding the Data Source\Adding the data source.csproj", "{C220BC0A-147F-4C7F-9AEF-1E97B556447E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatting the grid control", "DataApp - Formatting the grid control\Formatting the grid control.csproj", "{7987A8EE-C122-45DB-8AF9-4A56865DDC8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loading the data", "DataApp - Loading the Data\Loading the data.csproj", "{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wiring the Save button", "DataApp - Wiring the Save Button\Wiring the Save button.csproj", "{EF813D6F-777F-4498-8D48-846C41B1CC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataApp - Displaying fields", "DataApp - Displaying fields\DataApp - Displaying fields.csproj", "{75B6028B-3F6C-4D33-BFC7-01E8743D354F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F23F928-E109-4B17-B947-FB2E67A37981}.Debug|x86.ActiveCfg = Debug|x86
+		{6F23F928-E109-4B17-B947-FB2E67A37981}.Debug|x86.Build.0 = Debug|x86
+		{6F23F928-E109-4B17-B947-FB2E67A37981}.Release|x86.ActiveCfg = Release|x86
+		{6F23F928-E109-4B17-B947-FB2E67A37981}.Release|x86.Build.0 = Release|x86
+		{02FCE7C9-EF26-4135-A7EF-295CCE73CAD0}.Debug|x86.ActiveCfg = Debug|x86
+		{02FCE7C9-EF26-4135-A7EF-295CCE73CAD0}.Debug|x86.Build.0 = Debug|x86
+		{02FCE7C9-EF26-4135-A7EF-295CCE73CAD0}.Release|x86.ActiveCfg = Release|x86
+		{02FCE7C9-EF26-4135-A7EF-295CCE73CAD0}.Release|x86.Build.0 = Release|x86
+		{C220BC0A-147F-4C7F-9AEF-1E97B556447E}.Debug|x86.ActiveCfg = Debug|x86
+		{C220BC0A-147F-4C7F-9AEF-1E97B556447E}.Debug|x86.Build.0 = Debug|x86
+		{C220BC0A-147F-4C7F-9AEF-1E97B556447E}.Release|x86.ActiveCfg = Release|x86
+		{C220BC0A-147F-4C7F-9AEF-1E97B556447E}.Release|x86.Build.0 = Release|x86
+		{7987A8EE-C122-45DB-8AF9-4A56865DDC8B}.Debug|x86.ActiveCfg = Debug|x86
+		{7987A8EE-C122-45DB-8AF9-4A56865DDC8B}.Debug|x86.Build.0 = Debug|x86
+		{7987A8EE-C122-45DB-8AF9-4A56865DDC8B}.Release|x86.ActiveCfg = Release|x86
+		{7987A8EE-C122-45DB-8AF9-4A56865DDC8B}.Release|x86.Build.0 = Release|x86
+		{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7}.Debug|x86.ActiveCfg = Debug|x86
+		{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7}.Debug|x86.Build.0 = Debug|x86
+		{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7}.Release|x86.ActiveCfg = Release|x86
+		{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7}.Release|x86.Build.0 = Release|x86
+		{EF813D6F-777F-4498-8D48-846C41B1CC1E}.Debug|x86.ActiveCfg = Debug|x86
+		{EF813D6F-777F-4498-8D48-846C41B1CC1E}.Debug|x86.Build.0 = Debug|x86
+		{EF813D6F-777F-4498-8D48-846C41B1CC1E}.Release|x86.ActiveCfg = Release|x86
+		{EF813D6F-777F-4498-8D48-846C41B1CC1E}.Release|x86.Build.0 = Release|x86
+		{75B6028B-3F6C-4D33-BFC7-01E8743D354F}.Debug|x86.ActiveCfg = Debug|x86
+		{75B6028B-3F6C-4D33-BFC7-01E8743D354F}.Debug|x86.Build.0 = Debug|x86
+		{75B6028B-3F6C-4D33-BFC7-01E8743D354F}.Release|x86.ActiveCfg = Release|x86
+		{75B6028B-3F6C-4D33-BFC7-01E8743D354F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F23F928-E109-4B17-B947-FB2E67A37981} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+		{C220BC0A-147F-4C7F-9AEF-1E97B556447E} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+		{7987A8EE-C122-45DB-8AF9-4A56865DDC8B} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+		{1FA3441E-9C5F-43F0-A8A7-0A869656F8C7} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+		{EF813D6F-777F-4498-8D48-846C41B1CC1E} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+		{75B6028B-3F6C-4D33-BFC7-01E8743D354F} = {500516E1-95E6-41D7-93BE-9131BDF7302F}
+	EndGlobalSection
+EndGlobal

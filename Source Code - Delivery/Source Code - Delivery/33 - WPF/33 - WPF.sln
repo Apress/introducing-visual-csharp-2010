@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator-Complete", "Calculator-Complete\Calculator-Complete.csproj", "{44F3D2A9-62E5-4772-A8AD-2EF93AF1638F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Swim Calculator", "Swim Calculator", "{8F9E10E1-8085-448F-AC1A-6C0A42F2964D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimCalculator", "SwimCalculator\SwimCalculator.csproj", "{63298D86-AFB4-4813-8A1D-4189DEE73119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataApp", "DataApp\DataApp.csproj", "{80C1DDD6-DC4B-43BC-A00E-710A3132C685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Animation", "Animation", "{4E304300-84C0-4C85-8336-ACA00C3E8DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo", "AnimationDemo\AnimationDemo.csproj", "{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{511ADCD4-EB9F-4E7A-A247-ADB5302F564A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsDemo", "CommandsDemo\CommandsDemo.csproj", "{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F3D2A9-62E5-4772-A8AD-2EF93AF1638F}.Debug|x86.ActiveCfg = Debug|x86
+		{44F3D2A9-62E5-4772-A8AD-2EF93AF1638F}.Debug|x86.Build.0 = Debug|x86
+		{44F3D2A9-62E5-4772-A8AD-2EF93AF1638F}.Release|x86.ActiveCfg = Release|x86
+		{44F3D2A9-62E5-4772-A8AD-2EF93AF1638F}.Release|x86.Build.0 = Release|x86
+		{63298D86-AFB4-4813-8A1D-4189DEE73119}.Debug|x86.ActiveCfg = Debug|x86
+		{63298D86-AFB4-4813-8A1D-4189DEE73119}.Debug|x86.Build.0 = Debug|x86
+		{63298D86-AFB4-4813-8A1D-4189DEE73119}.Release|x86.ActiveCfg = Release|x86
+		{63298D86-AFB4-4813-8A1D-4189DEE73119}.Release|x86.Build.0 = Release|x86
+		{80C1DDD6-DC4B-43BC-A00E-710A3132C685}.Debug|x86.ActiveCfg = Debug|x86
+		{80C1DDD6-DC4B-43BC-A00E-710A3132C685}.Debug|x86.Build.0 = Debug|x86
+		{80C1DDD6-DC4B-43BC-A00E-710A3132C685}.Release|x86.ActiveCfg = Release|x86
+		{80C1DDD6-DC4B-43BC-A00E-710A3132C685}.Release|x86.Build.0 = Release|x86
+		{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2}.Debug|x86.ActiveCfg = Debug|x86
+		{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2}.Debug|x86.Build.0 = Debug|x86
+		{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2}.Release|x86.ActiveCfg = Release|x86
+		{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2}.Release|x86.Build.0 = Release|x86
+		{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E}.Debug|x86.ActiveCfg = Debug|x86
+		{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E}.Debug|x86.Build.0 = Debug|x86
+		{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E}.Release|x86.ActiveCfg = Release|x86
+		{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63298D86-AFB4-4813-8A1D-4189DEE73119} = {8F9E10E1-8085-448F-AC1A-6C0A42F2964D}
+		{EB41E9E7-503B-4493-96F4-F8BCEA16FDB2} = {4E304300-84C0-4C85-8336-ACA00C3E8DB3}
+		{B63DBE2C-5815-4C20-9B3D-BC2B4EEE604E} = {511ADCD4-EB9F-4E7A-A247-ADB5302F564A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimCalculator", "SwimCalculator\SwimCalculator.csproj", "{330E8B24-3E35-42FC-B673-952A8EA94B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimCalculator.Web", "SwimCalculator.Web\SwimCalculator.Web.csproj", "{B8B069B3-F079-4E13-A642-7319E5393B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330E8B24-3E35-42FC-B673-952A8EA94B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330E8B24-3E35-42FC-B673-952A8EA94B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330E8B24-3E35-42FC-B673-952A8EA94B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330E8B24-3E35-42FC-B673-952A8EA94B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B069B3-F079-4E13-A642-7319E5393B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B069B3-F079-4E13-A642-7319E5393B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B069B3-F079-4E13-A642-7319E5393B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B069B3-F079-4E13-A642-7319E5393B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

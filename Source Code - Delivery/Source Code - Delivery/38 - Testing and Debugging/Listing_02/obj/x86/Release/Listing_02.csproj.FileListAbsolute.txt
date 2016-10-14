@@ -1,0 +1,5 @@
+C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\XX - Testing and Debugging\Listing_02\bin\Release\Listing_02.exe
+C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\XX - Testing and Debugging\Listing_02\bin\Release\Listing_02.pdb
+C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\XX - Testing and Debugging\Listing_02\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\XX - Testing and Debugging\Listing_02\obj\x86\Release\Listing_02.exe
+C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\XX - Testing and Debugging\Listing_02\obj\x86\Release\Listing_02.pdb

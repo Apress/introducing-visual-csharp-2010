@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fruits>
+  <Fruit>
+    <Name>Cherry</Name>
+    <Color>Red</Color>
+    <StockLevel>500</StockLevel>
+  </Fruit>
+  <Fruit>
+    <Name>Apple</Name>
+    <Color>Green</Color>
+    <StockLevel>230</StockLevel>
+  </Fruit>
+  <Fruit>
+    <Name>Plum</Name>
+    <Color>Red</Color>
+    <StockLevel>300</StockLevel>
+  </Fruit>
+</Fruits>

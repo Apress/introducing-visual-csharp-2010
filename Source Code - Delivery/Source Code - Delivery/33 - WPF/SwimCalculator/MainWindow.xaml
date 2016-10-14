@@ -1,0 +1,25 @@
+﻿<Window x:Class="SwimCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Swim Calculator" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="266" Width="540" Loaded="Window_Loaded" Icon="/SwimCalculator;component/swim.ico">
+    <Grid>
+        <Menu Height="23" Name="menu1" VerticalAlignment="Top">
+            <MenuItem Header="File" IsTabStop="False">
+                <MenuItem Header="Quit" Click="MenuItem_Click" />
+            </MenuItem>
+        </Menu>
+        <StatusBar Name="statusBar1" Height="23" VerticalAlignment="Bottom" IsEnabled="True">
+            <StatusBarItem Content="Ready" Name="statusLabel" />
+        </StatusBar>
+        <Label Content="Minutes:" Height="28" HorizontalAlignment="Left" Margin="21,38,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="79,40,0,0" Name="minutesTextBox" VerticalAlignment="Top" Width="120" Text="0" TextAlignment="Right" TabIndex="1" KeyDown="ValidateKeyPress" GotFocus="TextBoxGotFocus" />
+        <Label Content="Laps:" Height="28" HorizontalAlignment="Left" Margin="40,78,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="79,80,0,0" Name="lapsTextBox" VerticalAlignment="Top" Width="120" Text="0" TextAlignment="Right" TabIndex="2" KeyDown="ValidateKeyPress" GotFocus="TextBoxGotFocus" />
+        <Label Content="Length (m):" Height="28" HorizontalAlignment="Left" Margin="7,118,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="79,120,0,0" Name="lengthTextBox" Width="120" Height="23" VerticalAlignment="Top" Text="20" TextAlignment="Right" IsTabStop="False" KeyDown="ValidateKeyPress" GotFocus="TextBoxGotFocus" />
+        <Label Content="Cals/hr:" Height="28" HorizontalAlignment="Left" Margin="27,158,0,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="79,160,0,0" Name="caloriesTextBox" Width="120" Height="23" VerticalAlignment="Top" Text="1070" TextAlignment="Right" IsTabStop="False" KeyDown="ValidateKeyPress" GotFocus="TextBoxGotFocus" />
+        <Button Content="&gt;" Margin="205,40,238,41" Name="convertButton" FontWeight="Normal" FontSize="40" TabIndex="3" Click="convertButton_Click" />
+        <TextBlock Margin="0,40,12,41" Name="resultsTextBlock" Text="" HorizontalAlignment="Right" Width="220" />
+    </Grid>
+</Window>

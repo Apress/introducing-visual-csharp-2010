@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WindowsAPICodePack">
+</Property><Property Name="Solution File" Value="C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\WindowsAPICodePack.sln">
+</Property><Property Name="Date" Value="28 August 2010">
+</Property><Property Name="Time" Value="10:11">
+</Property></Properties><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Shell" Source="Shell\Shell.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Core" Source="Core\Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Core" Source="Core\Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Sensors" Source="Sensors\Sensors.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Sensors" Source="Sensors\Sensors.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExtendedLinguisticServices" Source="ExtendedLinguisticServices\ExtendedLinguisticServices.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExtendedLinguisticServices" Source="ExtendedLinguisticServices\ExtendedLinguisticServices.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsAPICodePack.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WindowsAPICodePack.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA1805. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="Created rule set file &quot;C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\Shell\Migrated rules for Shell.ruleset&quot; for the &quot;Debug (Any CPU)&quot; configuration.">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA1805. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell\Shell.csproj" Description="Created rule set file &quot;C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\Shell\Migrated rules for Shell (2).ruleset&quot; for the &quot;CodeAnalysisDebug (Any CPU)&quot; configuration.">
+</Event><Event ErrorLevel="0" Project="Core" Source="Core\Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Core" Source="Core\Core.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA1805. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="Core" Source="Core\Core.csproj" Description="Created rule set file &quot;C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\Core\Migrated rules for Core.ruleset&quot; for the &quot;Debug (Any CPU)&quot; configuration.">
+</Event><Event ErrorLevel="0" Project="Sensors" Source="Sensors\Sensors.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Sensors" Source="Sensors\Sensors.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA1805. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="Sensors" Source="Sensors\Sensors.csproj" Description="Created rule set file &quot;C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\Sensors\Migrated rules for Sensors.ruleset&quot; for the &quot;Debug (Any CPU)&quot; configuration.">
+</Event><Event ErrorLevel="0" Project="ExtendedLinguisticServices" Source="ExtendedLinguisticServices\ExtendedLinguisticServices.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ExtendedLinguisticServices" Source="ExtendedLinguisticServices\ExtendedLinguisticServices.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA1805. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="ExtendedLinguisticServices" Source="ExtendedLinguisticServices\ExtendedLinguisticServices.csproj" Description="Created rule set file &quot;C:\Users\Adam\Documents\Work\C# Intro\repository\Source Code\Windows API Code Pack\WindowsAPICodePack\ExtendedLinguisticServices\Migrated rules for ExtendedLinguisticServices.ruleset&quot; for the &quot;Debug (Any CPU)&quot; configuration.">
+</Event></UpgradeLog>

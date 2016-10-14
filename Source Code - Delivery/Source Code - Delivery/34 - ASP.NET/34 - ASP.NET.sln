@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimCalculator", "SwimCalculator\SwimCalculator.csproj", "{A84ADA01-8AB6-4C8F-B2AE-7B13A073FA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataApp", "DataApp\DataApp.csproj", "{D1BE675D-AE19-4545-BF50-4EB5BDAC93EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDataApp", "DynamicDataApp\DynamicDataApp.csproj", "{EF0412D0-8D12-4F5E-8A13-A39FC84CB489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84ADA01-8AB6-4C8F-B2AE-7B13A073FA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84ADA01-8AB6-4C8F-B2AE-7B13A073FA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84ADA01-8AB6-4C8F-B2AE-7B13A073FA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84ADA01-8AB6-4C8F-B2AE-7B13A073FA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BE675D-AE19-4545-BF50-4EB5BDAC93EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BE675D-AE19-4545-BF50-4EB5BDAC93EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BE675D-AE19-4545-BF50-4EB5BDAC93EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BE675D-AE19-4545-BF50-4EB5BDAC93EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0412D0-8D12-4F5E-8A13-A39FC84CB489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0412D0-8D12-4F5E-8A13-A39FC84CB489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0412D0-8D12-4F5E-8A13-A39FC84CB489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0412D0-8D12-4F5E-8A13-A39FC84CB489}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="SwimCalculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="160" Width="508" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*" />
+            <ColumnDefinition Width="20*" />
+            <ColumnDefinition Width="20*" />
+            <ColumnDefinition Width="40*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="stackPanel1">
+            <sdk:Label Height="28" Name="label1" Width="Auto" Margin="0,10,5,0" HorizontalContentAlignment="Right" Content="Minutes:" />
+            <sdk:Label Height="28" Name="label2" Width="Auto" Margin="0,10,5,0" HorizontalContentAlignment="Right" Content="Laps:"/>
+            <sdk:Label Height="28" Name="label3" Width="Auto" Margin="0,10,5,0" HorizontalContentAlignment="Right" Content="Length (m):"/>
+            <sdk:Label Height="28" Name="label4" Width="Auto" Margin="0,10,5,0" HorizontalContentAlignment="Right" Content="Cals/hr:"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Name="stackPanel2" Margin="0,0,10,0">
+            <TextBox Height="28" Name="minutesTextBox" Width="Auto" Margin="0,10,0,0" Text="0" TextAlignment="Right" />
+            <TextBox Height="28" Name="lapsTextBox" Width="Auto" Margin="0,10,0,0" Text="0" TextAlignment="Right" />
+            <TextBox Height="28" Name="lengthTextBox" Width="Auto" Margin="0,10,0,0" Text="20" TextAlignment="Right" />
+            <TextBox Height="28" Name="caloriesTextBox" Width="Auto" Margin="0,10,0,0" Text="1070" TextAlignment="Right" />
+        </StackPanel>
+        <TextBlock Grid.Column="3" Name="resultsTextBlock" Text="" Margin="10" />
+        <Button Content="&gt;" Grid.Column="2" Grid.ColumnSpan="1" HorizontalAlignment="Stretch" Margin="10" Name="convertButton" VerticalAlignment="Stretch" FontSize="26" FontWeight="Normal" Click="convertButton_Click" />
+    </Grid>
+</UserControl>
